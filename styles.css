@@ -1,0 +1,135 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(130, 130, 172);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 99, 236);
+}
+
+#element {
+    color: rgb(170, 99, 236);
+}
+
+.section {
+    max-width: 80vw;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: rgb(170, 99, 236);
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.contact-form input[type="submit"] {
+    background: #1e2167;
+    color: white;
+    cursor: pointer;
+}
